@@ -1,3 +1,0 @@
-<template>
-    <TeacherAnalyticsAchievementChatBot />
-</template>

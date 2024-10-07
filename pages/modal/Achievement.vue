@@ -1,3 +1,0 @@
-<template>
-    <ModalAchievement />
-</template>

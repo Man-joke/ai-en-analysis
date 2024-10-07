@@ -1,3 +1,0 @@
-<template>
-    <TeacherAnalyticsLesson />
-</template>

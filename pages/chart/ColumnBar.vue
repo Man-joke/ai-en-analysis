@@ -1,3 +1,0 @@
-<template>
-    <ChartColumnBar />
-</template>

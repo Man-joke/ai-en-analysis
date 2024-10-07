@@ -1,3 +1,0 @@
-<template>
-    <ModalVocaLearningStatus />
-</template>
