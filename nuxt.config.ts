@@ -3,6 +3,10 @@ export default defineNuxtConfig({
     
     devtools: { enabled: true },
 
+    app:{
+        baseURL: ''
+    },
+
     ssr: false,
 
     css: ['@/assets/scss/index.scss'],
