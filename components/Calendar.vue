@@ -31,7 +31,7 @@
                     </span>
                 </div>
             </template>
-            <p class="notice">생활기록부 작성 기간이 10일 남았습니다.</p>
+            <!-- <p class="notice">생활기록부 작성 기간이 10일 남았습니다.</p> -->
         </div>
     </v-card>
 </template>
