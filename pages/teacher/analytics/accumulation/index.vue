@@ -1,0 +1,3 @@
+<template>
+    <TeacherAnalyticsAccumulation />
+</template>

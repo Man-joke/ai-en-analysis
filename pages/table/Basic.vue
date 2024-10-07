@@ -1,0 +1,3 @@
+<template>
+    <TableBasic/>
+</template>

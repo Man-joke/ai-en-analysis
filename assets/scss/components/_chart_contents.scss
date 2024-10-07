@@ -1,0 +1,64 @@
+.chart_contents {
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+	&.type_combination {
+		padding: 3rem 3rem 1rem;
+		min-height: 40rem;
+		
+
+		&::before {
+			content: '정답율';
+			position: absolute;
+			top: 1rem;
+			left: 4.5rem;
+			@include font_body4($line-height: 2.2rem);
+		}
+	}
+
+	&.type_multiple_radial {
+		margin: 0 auto;
+		width: 33rem;
+		height: 33rem;
+	}
+
+	&.type_donut {
+		height: 34.8rem;
+
+		.text_wrap {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			text-align: center;
+			transform: translate(-50%, -50%);
+
+			span {
+				@include font_body1();
+			}
+
+			strong {
+				display: block;
+				color: $G900;
+				font-size: 3.2rem;
+			}
+		}
+	}
+
+	&.type_simple_donut {
+		height: 36.7rem;
+	}
+
+	&.type_radar {
+		height: 37rem;
+	}
+
+	&.type_column_bar {
+		margin-top: 1.5rem;
+		height: 40.5rem;
+	}
+
+	&.type_stacked_column {
+		height: 45rem;
+	}
+}

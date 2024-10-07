@@ -1,0 +1,3 @@
+<template>
+    <TeacherAnalyticsLearnTouchVoca />
+</template>
