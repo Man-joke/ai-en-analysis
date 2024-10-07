@@ -7,7 +7,9 @@
         "dev": "nuxt dev",
         "generate": "nuxt generate",
         "preview": "nuxt preview",
-        "postinstall": "nuxt prepare"
+        "postinstall": "nuxt prepare",
+        "homepage": "https://github.com/Man-joke/ai-en-analysis.git",
+        "deploy": "gh-pages --dotfiles -d .output/public"
     },
     "homepage": ".",
     "dependencies": {

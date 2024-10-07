@@ -1,9 +1,16 @@
 export default defineNuxtConfig({
-    buildDir:'dist',
-    
+    buildDir: 'dist',
+
     devtools: { enabled: true },
 
     ssr: false,
+
+    nitro: {
+        preset: 'github-pages'
+    },
+    app: {
+        baseURL: '/my-repository-url/'
+    },
 
     css: ['@/assets/scss/index.scss'],
 
